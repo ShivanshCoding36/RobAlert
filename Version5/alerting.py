@@ -14,7 +14,7 @@ auth_token = token
 
 # Your Twilio phone numbers
 from_number = num
-to_number = '+919560017692'
+to_number = ''
 
 def alertFunc(details: list):
     make_phone_call(details[0],details[1])
